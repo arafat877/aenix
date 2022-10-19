@@ -12,6 +12,9 @@ aenix (Adam and Eriks NIX) is a small hobby operating system.
 If you are running Ubuntu 10.10 or later, these can all be installed by running
 
     sudo apt-get install build-essential nasm genisoimage bochs bochs-x
+    
+    - This will resolve the problem of : (sys/types.h: No such file or directory) when compiling 
+    sudo apt install libc6-dev
 
 ## Building
 
